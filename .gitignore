@@ -12,3 +12,4 @@ venv/
 # Generated at runtime: the UI screenshot task writes here so a human can look
 # at the interface. Not source, never committed.
 artifacts/
+release/
