@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# pytest
+.pytest_cache/
+
+# Generated at runtime: the UI screenshot task writes here so a human can look
+# at the interface. Not source, never committed.
+artifacts/

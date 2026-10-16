@@ -1,0 +1,14 @@
+# Lirik Studio - runtime dependencies.
+#
+# Keep this list short on purpose: the app must install with almost nothing.
+#   * numpy  - DSP for the audio reference analysis
+#   * scipy  - filters/percentiles for loudness and dynamic-range measurement
+# Tkinter ships with CPython. ffmpeg/ffprobe are external binaries: install them
+# and put them on PATH (or point FFMPEG_BIN / FFPROBE_BIN at them).
+# Everything else - HTTP, JSON, zip, threading, persistence - is stdlib.
+
+numpy>=1.24
+scipy>=1.10
+
+# Optional, development only:
+#   pytest>=8
